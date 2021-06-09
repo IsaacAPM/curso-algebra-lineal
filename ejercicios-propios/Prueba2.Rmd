@@ -1,0 +1,36 @@
+---
+title: "Prueba2"
+author: "Isaac Pimentel"
+date: "7/6/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(engine.path = list(octave = "/usr/bin/octave"))
+library(magic)
+```
+
+# Prueba de cuadrados mágicos
+Vamos a hacer un cuadrado mágico de tamaño 6
+```{r}
+magic(6)
+```
+
+```{python}
+import simpy
+import numpy as np
+x = np.abs(-5)
+s = np.linspace(1,5,10)
+print('Prueba',x)
+print(s)
+```
+
+Estas últimas son en Octave
+```{octave}
+z1 = complex(1,2)
+class(z1)
+A = [1 2 3 ; 1 5 9 ; 85 65 1]
+```
+
+
